@@ -1,5 +1,5 @@
 program main
-    use main_mod, only: to_upper
+    use main_mod, only: to_upper,get_operating_system
     implicit none
     integer :: argc,argi,comstat,tickinit,tickend
     character(len=:), allocatable :: argv,args,argstr,quietcom
@@ -26,7 +26,11 @@ program main
             call exit()
         end if
         if (to_upper(adjustl(trim(argv))) .eq. '--NONVERBOSE') then
-            quietcom = ' >/dev/null 2>&1 >/dev/null'
+            if (get_operating_system() .eq. 'linux') then
+                quietcom = ' >/dev/null 2>&1 >/dev/null'
+            else
+                quietcom = ' > nul'
+            end if
         else
             args = args//' '//trim(argv)
             argstr = adjustl(trim(args))
