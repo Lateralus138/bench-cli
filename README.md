@@ -17,6 +17,7 @@
   - [Files](#files)
     - [Linux Files](#linux-files)
     - [Windows Files](#windows-files)
+  - [Media](#media)
   - [License](#license)
 
 <a name="motivation"></a>
@@ -72,7 +73,13 @@ File|Description
 [Source Files](source_window.7z)|Windows source - no compilations.
 [Compiled](dist/windows/bench.exe)|Compiled binary executable.
 
+<a name="media"></a>
+
+## Media
+
 <a name="license"></a>
+
+<!-- #TODO Add screenshots to README -->
 
 ## [License](./LICENSE)
 
