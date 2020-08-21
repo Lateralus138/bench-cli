@@ -20,8 +20,8 @@ program main
                             '     -h, --help      This help message.', &
                             '     --nonverbose    Run command silently.', &
                             '                     While running non-verbosely', &
-                            '                     it may better to wrap the', &
-                            '                     command in quotes.', &
+                            '                     it may be better to wrap', &
+                            '                     the command in quotes.', &
                             ''
             call exit()
         end if
