@@ -23,6 +23,7 @@ program main
                             '                     it may be better to wrap', &
                             '                     the command in quotes.', &
                             ''
+        ! #TODO Add EXIT CODES to HELP
             call exit()
         end if
         if (to_upper(adjustl(trim(argv))) .eq. '--NONVERBOSE') then
