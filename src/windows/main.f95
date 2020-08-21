@@ -2,7 +2,7 @@ program main
     use main_mod, only: to_upper,get_operating_system
     implicit none
     integer :: argc,argi,comstat,tickinit,tickend
-    character(len=:), allocatable :: argv,args,argstr,quietcom
+    character(len=:), allocatable :: argv,args,argstr,quietcom,os
     argc = command_argument_count()  
     if (argc .eq. 0) call exit(1)
     allocate(character(len=4096) :: argv)
@@ -26,7 +26,8 @@ program main
             call exit()
         end if
         if (to_upper(adjustl(trim(argv))) .eq. '--NONVERBOSE') then
-            if (get_operating_system() .eq. 'linux') then
+            os = get_operating_system()
+            if (os .eq. 'linux') then
                 quietcom = ' >/dev/null 2>&1 >/dev/null'
             else
                 quietcom = ' > nul'
@@ -36,6 +37,7 @@ program main
             argstr = adjustl(trim(args))
         end if
     end do
+    deallocate(argv)
     call system_clock(count=tickinit)
     call execute_command_line(argstr//quietcom,exitstat=comstat)
     if (comstat .gt. 0) call exit(2)
