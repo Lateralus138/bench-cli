@@ -13,7 +13,7 @@ program main
         if (to_upper(adjustl(trim(argv))) .eq. '-H' .or. &
             to_upper(adjustl(trim(argv))) .eq. '--HELP') then
             print '(a)',    '', &
-                            ' USAGE: benchcom [OPTIONS]... COMMAND... ', &
+                            ' USAGE: bench [OPTIONS]... COMMAND... ', &
                             ' Benchmark command line commands... ', &
                             '', &
                             ' OPTIONS:', &
