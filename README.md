@@ -72,7 +72,7 @@ File|Description
 
 File|Description
 ---:|:---
-[Source Files](source_window.7z)|Windows source - no compilations.
+[Source Files](source_windows.7z)|Windows source - no compilations.
 [Compiled](dist/windows/bench.exe)|Compiled binary executable.
 
 <a name="media"></a>
