@@ -82,7 +82,7 @@ File|Description
 
 - [Official Project](https://lateralus138.github.io/benchmark-commandline-fortran)
 - [This Repository](https://github.com/Lateralus138/benchmark-commandline-fortran)
-- [Current Release](https://lateralus138.github.io/benchmark-commandline-fortran/releases)
+- [Current Release](https://github.com/Lateralus138/benchmark-commandline-fortran/releases)
 
 
 <a name="media"></a>
