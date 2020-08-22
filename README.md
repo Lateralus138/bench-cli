@@ -38,12 +38,20 @@
 ```Bash
  $ bench --help
 
+ USAGE: benchcom [OPTIONS]... COMMAND... 
+ Benchmark command line commands...
+
  OPTIONS:
      -h, --help      This help message.
      --nonverbose    Run command silently.
                      While running non-verbosely
                      it may be better to wrap
                      the command in quotes.
+
+ EXIT CODES:
+     0               No errors.
+     1               No paramters passed.
+     2               Error in given command.
 
  $ bench "ls /usr/bin" --nonverbose
  10ms
