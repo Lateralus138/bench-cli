@@ -17,6 +17,7 @@
   - [Files](#files)
     - [Linux Files](#linux-files)
     - [Windows Files](#windows-files)
+  - [Project Links](#project-links)
   - [Media](#media)
     - [Help](#help)
     - [For Vs. While Example](#for-vs-while-example)
@@ -74,6 +75,15 @@ File|Description
 ---:|:---
 [Source Files](source_windows.7z)|Windows source - no compilations.
 [Compiled](dist/windows/bench.exe)|Compiled binary executable.
+
+<a name="project-links">
+
+## Project Links
+
+- [Official Project](https://lateralus138.github.io/benchmark-commandline-fortran)
+- [This Repository](https://github.com/Lateralus138/benchmark-commandline-fortran)
+- [Current Release](https://lateralus138.github.io/benchmark-commandline-fortran/releases)
+
 
 <a name="media"></a>
 
