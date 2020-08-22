@@ -22,8 +22,12 @@ program main
                             '                     While running non-verbosely', &
                             '                     it may be better to wrap', &
                             '                     the command in quotes.', &
+                            '', &
+                            ' EXIT CODES:', &
+                            '     0               No errors.', &
+                            '     1               No paramters passed.', &
+                            '     2               Error in given command.', &
                             ''
-        ! #TODO Add EXIT CODES to HELP
             call exit()
         end if
         if (to_upper(adjustl(trim(argv))) .eq. '--NONVERBOSE') then

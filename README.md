@@ -18,6 +18,8 @@
     - [Linux Files](#linux-files)
     - [Windows Files](#windows-files)
   - [Media](#media)
+    - [Help](#help)
+    - [For Vs. While Example](#for-vs-while-example)
   - [License](#license)
 
 <a name="motivation"></a>
@@ -77,9 +79,19 @@ File|Description
 
 ## Media
 
-<a name="license"></a>
+<a name="help"></a>
 
-<!-- #TODO Add screenshots to README -->
+### Help
+
+![Help Message](media/help.png)
+
+<a name="for-vs-while-example"></a>
+
+### For Vs. While Example
+
+![Example](media/for_vs_while_bench_test.png)
+
+<a name="license"></a>
 
 ## [License](./LICENSE)
 

@@ -22,6 +22,11 @@ program main
                             '                     While running non-verbosely', &
                             '                     it may be better to wrap', &
                             '                     the command in quotes.', &
+                            '', &
+                            ' EXIT CODES:', &
+                            '     0               No errors.', &
+                            '     1               No paramters passed.', &
+                            '     2               Error in given command.', &
                             ''
             call exit()
         end if
