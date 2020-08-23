@@ -33,7 +33,7 @@
 
 ## Usage
 
-> Usage is the same on both Windows and Linux, but it is only useful for `CMD`, not *Powershell* in Windows. 
+> Usage is the same on both Windows and Linux. 
 
 ```Bash
  $ bench --help
