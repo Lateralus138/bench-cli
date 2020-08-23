@@ -9,6 +9,8 @@ program main
     allocate(character(len=4096) :: argv)
     args = ''
     quietcom = ''
+    pre = ''
+    post = ''
     do argi=1, argc
         call get_command_argument(argi,argv)
         if (to_upper(adjustl(trim(argv))) .eq. '-H' .or. &
