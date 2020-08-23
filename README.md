@@ -43,6 +43,9 @@
 
  OPTIONS:
      -h, --help      This help message.
+     -a, --alternate Use alternate shell.
+                     Bash in Linux.
+                     PowerShell in Windows.
      --nonverbose    Run command silently.
                      While running non-verbosely
                      it may be better to wrap
