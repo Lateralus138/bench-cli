@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=bench
+Exec=bench %F
+Icon=bench
+Terminal=true
+Type=Application
+Categories=Utility;

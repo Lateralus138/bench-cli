@@ -1,0 +1,4 @@
+#!/bin/sh
+export LD_LIBRARY_PATH="${APPDIR}/usr/lib:${LD_LIBRARY_PATH}"
+DIR="$(dirname "$(readlink -f "$0")")"
+exec ${DIR}/usr/bin/bench $@
