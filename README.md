@@ -24,6 +24,7 @@
     - [Linux Files](#linux-files)
     - [Windows Files](#windows-files)
   - [Project Links](#project-links)
+    - [AppImage Hub](#appimage-hub)
   - [Media](#media)
     - [Help](#help)
     - [For Vs. While Example](#for-vs-while-example)
@@ -128,6 +129,11 @@ File|Description
 - [This Repository](https://github.com/Lateralus138/bench-cli)
 - [Continuous Build - Current Releases](https://github.com/Lateralus138/bench-cli/releases/tag/Continuous)
 
+<a name="appimage-hub"></a>
+
+### AppImage Hub
+
+- [AppImage at the AppImage Hub](https://appimage.github.io/UniShellect/)
 
 <a name="media"></a>
 
@@ -152,3 +158,4 @@ File|Description
 >This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 >This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
