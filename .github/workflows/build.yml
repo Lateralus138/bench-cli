@@ -34,6 +34,6 @@ jobs:
         allowUpdates: True
         tag: Continuous
         name: Continuous Build
-        prerelease: true
+        prerelease: false
         artifacts: "dist/linux/appimage/bench-x86_64.AppImage,dist/linux/bin/bench,dist/windows/bin/bench.exe"
         token: ${{ secrets.GITHUB_TOKEN }}
