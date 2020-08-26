@@ -1,9 +1,6 @@
 <a name="bench-cli"></a>
 
 # Bench CLI
-![Under Construction](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACmElEQVQokUWSa0iTcRTGn//26u4b6ZQ0U8lKMqykwPpgZVBEHyLp8jEoIZJADCQ0iCiStIwuZmHRioIuroQss2VkrkIrdeFckiZqdhctTXPOve8Tr7M6X8/zO+fwPEfIwy7IwQA0GgExGYQwyhCmMLRX1z2hJCJSN+xZgqAZnPgCaAUQ0EHICjSYLlKBCDdNQb7HLmeRoy3zQFnzYk/1WTckGUIXCVD+Kw+BpAxtuBXCpkN7bdXt/JL3W3J3xuHg3iTsL/NkNFWVPoWkQOj/wxooCrRhFgiTjI4n9ZVHHQObjxVEY8UGIi1zEhVFCahwdq5qvn+hHkKC0EcBigxwvAnkW3ge7L6TMi+VztOLOOKOY8ulKL68GM2emnjeLF3AZSlz2FCZ6yaHwLGv6pkv8MyxsUoHLcsLwBuHwE0rtdy2UuLWNTpmpkkszQEfnAPDAd47tbaB7NaJR+eXujfmtGTUXgFWp5uwPd8Oi1GBJEmwWYlP34L4PSFw7chPeD+MYnkWUVmy0CeNfe5N8ANIjNWpNmHzqklYrDIGRwRm2gXsM/xofRMOf1AgcbYOAfgxMvgxCmS9+dbh5A6VarxuIMdBDoJ0g+vSreytNpAEux7qqWrK82I+kC2xYOAzyFbz5QNJPrXhdRo4XK/n3WILkxPsbKqwsr8xBB3PjukhGyJJv+qqB+QvkN0mR2Fim5pU1hobzxTYOPbcyJoTNpoAlu6wdZKvIslR0O9VXe0Clc5p2Ge4WDh36ux3ThM/1RqnNhXvilU32cjvINtAf4cKdkzlSHpBTqgNY11JfLtFA+o14NU8Wx/piggNfg2yGVR8EF9/dP37PyCIoDQLs8z9hmv71nsC4wFz9klX2tD4/AEG+gBoQ7KghD8MZ2xdnt7s7wAAAABJRU5ErkJggg==&label=Under&message=Construction&color=yellow)
-
-Working on an `AppImage`. New release coming soon.
 
 |`Build`|`Status`|
 |---:|:---|
@@ -11,7 +8,7 @@ Working on an `AppImage`. New release coming soon.
 
 ![Fortran Programming](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACNklEQVQokX2STWgTQRTH/zOzs6bZbrZNm9pKxVKwSIv14EHxUMWDH4UcFDyJB6tFEPEoUsFTVdCjIFRQih9XQePHJXgQDKJUEYX4VamtRVqTmKTbbLa7MyMZ22BBfJeZN8P/zfu/35C+7s+xZH9q/PtUeadUjOM/QYgMO7uiz9Pvk8fI6f1XHjnx+GByaAfKhQo81wdlBC3tDgghUFKi6gVwix6UkniRzsLLl58ZYVUNMs6wsb8TTa2N9ecWy1UIIaGkgtNi1c+zEzOYm5obMKwm2yvl3IYjWy/i6Mg+HDwxgHJ+EWcPXcevvAtCgEYnipGxw+ja1A4RCIDwCpVShZRRRO0IlnyhqxJK4FWWEG+zMXr3OEzTwIObGX3HOIVSStCVFjhn4PxPKqVCGAhs39OL7r4OrOtuxdxMoSYAM6j2bvxrho1OA25PjNRzM2Jg8l0BF4bvwC15sJst0L8Fanld8gOkxjOY+TKvc4MzhKHA9Kd5+F4Aw6CrhWRFWA1x9cw93Bh9rHPLjuiqsXhUt1qzUheKUCIMpN7XOPZsWY/iTxcv01kUcy6i9ppVdgxKCQsCgWLe1QI9KNPQvma/5nDt3H3NMdZsaa7LwcjJXZdVYkMCpy4dQGuHU68ohcTbzCTGzqcQiZra50pQIpTBLPIUodr941sBH15Po7Lga+jxtTGU8i64yTTX+hxqSDhekc09HxODvQ9vzU4tbBOSrsJjRjjaOpv1t6sxpEQKbvoTT97sHfoNjMHiR8joGwYAAAAASUVORK5CYII=&label=Programming&message=Fortran&color=blueviolet) ![Utility Command Line](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAC4GlDQ1BpY2MAADjLlZTfSxRRFMfPLGNJmZWoPVQ0QZDYFoP2Q4JE11XxR7vbqqVBwezM7O7o7uwwM7u20oMPvvUHWBBF5YMPvdRD2I+HCCJ7CItIe+ixHwa9JUoQbN87d8oKTLpw9n7uPed77rln7y6RuKRYViZARFnTteOdIWlw6Ky0cYEqKEA7qIaqFNWxWmOxXlpzLM+TwObXB1mu3d03h85Pzn27Ik1eejI3X6R/j0obBxIJQXB1inML4wTnfsajruWC04zVtKKBL4KDdn+8DTzN8qQ4zzBOcJ5lXFBTTPsWLJuaYRIFysFNmu6oYHZWQnPULHgKJmazOeQXWc461bKhFV+C97G+8JITe4iOTCL2zeqegVrvfSWqqV3dO3AO5T4lerh9de/TZq9Xwqmok2xs8LaEvbVEW7Ol0ufr0B8lWnFKpZWVUuk7elc2RHTthpq3C36/BOEF0Xprfme+JqGx0Sdai3lfvCHjvHGiQfSlG8ursP24a9VOos7HRNFxEuD2jffQG+Vhw7Eyynpf9/+PbCb/84wqWIWZiETZDFu03Bh7H5WwJafQ185jhEDS6OjiMUK1poR7wJvA0li6LeJzfdLuiPP7CoeHle6Yr9V0c6CP5xQKVsZ7915+yw2x+DrsT+hOO4vZBr49lu4/45/1yM7HB3zt7Eiuh8VvAM9rerj9Zx4zE+n187wz3K5f9VMfjdAw6WRTlk5SjkwyyMVsUwiUIY0cRLz3/BHMRXhdWvZ0H9luqn70Q7K5ePx0+je9Tnn4JKh1fLpQWR4Z8KtelEn5yJZkpWzKz+Rb8n15Qf4iT1EYEQ5iM6RA82c9Erw6vFyfBqvwaVjFEG0iSoEOSlZRYeJyjtUk7hKbxRNikxjC3PJg+u7sK5miiE5APwIzkUHyVrp/W9XLjZvx3yQbcfSuDH1flO48nxn/+624+gXv3bflrKJtpNKu1Ip/JD0odZnqoaDUIMvH6AejuegUonOVSwAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCBUQJzdo6KtCAAAA40lEQVQY0z3QPW6TURQE0HO/d22F0CIKFyyANvugo2IVLIyW5VBEWICQgGAl+Pt571LE8ow0zekmXkaLXaSmKUM3nluj8uO7fD/HbLWZpJSaNNXyKfvdw4ejTQlhEkIpB7f3+dt3J2988WhC6Tar7rX86pvu4Gy2WQ2bxeKFVZ48+eneKwc//FW6bvPoJJ8sZumXP5qmCyGszvKfBcV1n7OZ5dmqlHHhMgxltcjNMITA4IrdKlMYF4orDiUqs90gNM2EoduUG7uW++P0+faCcT1haHbHeLvft0nphkKYNJNu6f8ByrJ40c85M8EAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDgtMjFUMTY6Mzk6NTUtMDQ6MDBkl1zIAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA4LTIxVDE2OjM5OjU1LTA0OjAwFcrkdAAAAABJRU5ErkJggg==&label=Utility&message=Command%20Line&color=important) ![Utility Windows](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAC4GlDQ1BpY2MAADjLlZTfSxRRFMfPLGNJmZWoPVQ0QZDYFoP2Q4JE11XxR7vbqqVBwezM7O7o7uwwM7u20oMPvvUHWBBF5YMPvdRD2I+HCCJ7CItIe+ixHwa9JUoQbN87d8oKTLpw9n7uPed77rln7y6RuKRYViZARFnTteOdIWlw6Ky0cYEqKEA7qIaqFNWxWmOxXlpzLM+TwObXB1mu3d03h85Pzn27Ik1eejI3X6R/j0obBxIJQXB1inML4wTnfsajruWC04zVtKKBL4KDdn+8DTzN8qQ4zzBOcJ5lXFBTTPsWLJuaYRIFysFNmu6oYHZWQnPULHgKJmazOeQXWc461bKhFV+C97G+8JITe4iOTCL2zeqegVrvfSWqqV3dO3AO5T4lerh9de/TZq9Xwqmok2xs8LaEvbVEW7Ol0ufr0B8lWnFKpZWVUuk7elc2RHTthpq3C36/BOEF0Xprfme+JqGx0Sdai3lfvCHjvHGiQfSlG8ursP24a9VOos7HRNFxEuD2jffQG+Vhw7Eyynpf9/+PbCb/84wqWIWZiETZDFu03Bh7H5WwJafQ185jhEDS6OjiMUK1poR7wJvA0li6LeJzfdLuiPP7CoeHle6Yr9V0c6CP5xQKVsZ7915+yw2x+DrsT+hOO4vZBr49lu4/45/1yM7HB3zt7Eiuh8VvAM9rerj9Zx4zE+n187wz3K5f9VMfjdAw6WRTlk5SjkwyyMVsUwiUIY0cRLz3/BHMRXhdWvZ0H9luqn70Q7K5ePx0+je9Tnn4JKh1fLpQWR4Z8KtelEn5yJZkpWzKz+Rb8n15Qf4iT1EYEQ5iM6RA82c9Erw6vFyfBqvwaVjFEG0iSoEOSlZRYeJyjtUk7hKbxRNikxjC3PJg+u7sK5miiE5APwIzkUHyVrp/W9XLjZvx3yQbcfSuDH1flO48nxn/+624+gXv3bflrKJtpNKu1Ip/JD0odZnqoaDUIMvH6AejuegUonOVSwAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCBUQJzdo6KtCAAAA40lEQVQY0z3QPW6TURQE0HO/d22F0CIKFyyANvugo2IVLIyW5VBEWICQgGAl+Pt571LE8ow0zekmXkaLXaSmKUM3nluj8uO7fD/HbLWZpJSaNNXyKfvdw4ejTQlhEkIpB7f3+dt3J2988WhC6Tar7rX86pvu4Gy2WQ2bxeKFVZ48+eneKwc//FW6bvPoJJ8sZumXP5qmCyGszvKfBcV1n7OZ5dmqlHHhMgxltcjNMITA4IrdKlMYF4orDiUqs90gNM2EoduUG7uW++P0+faCcT1haHbHeLvft0nphkKYNJNu6f8ByrJ40c85M8EAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDgtMjFUMTY6Mzk6NTUtMDQ6MDBkl1zIAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA4LTIxVDE2OjM5OjU1LTA0OjAwFcrkdAAAAABJRU5ErkJggg==&label=Utility&message=Windows&color=yellow) ![Utility Linux](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAC4GlDQ1BpY2MAADjLlZTfSxRRFMfPLGNJmZWoPVQ0QZDYFoP2Q4JE11XxR7vbqqVBwezM7O7o7uwwM7u20oMPvvUHWBBF5YMPvdRD2I+HCCJ7CItIe+ixHwa9JUoQbN87d8oKTLpw9n7uPed77rln7y6RuKRYViZARFnTteOdIWlw6Ky0cYEqKEA7qIaqFNWxWmOxXlpzLM+TwObXB1mu3d03h85Pzn27Ik1eejI3X6R/j0obBxIJQXB1inML4wTnfsajruWC04zVtKKBL4KDdn+8DTzN8qQ4zzBOcJ5lXFBTTPsWLJuaYRIFysFNmu6oYHZWQnPULHgKJmazOeQXWc461bKhFV+C97G+8JITe4iOTCL2zeqegVrvfSWqqV3dO3AO5T4lerh9de/TZq9Xwqmok2xs8LaEvbVEW7Ol0ufr0B8lWnFKpZWVUuk7elc2RHTthpq3C36/BOEF0Xprfme+JqGx0Sdai3lfvCHjvHGiQfSlG8ursP24a9VOos7HRNFxEuD2jffQG+Vhw7Eyynpf9/+PbCb/84wqWIWZiETZDFu03Bh7H5WwJafQ185jhEDS6OjiMUK1poR7wJvA0li6LeJzfdLuiPP7CoeHle6Yr9V0c6CP5xQKVsZ7915+yw2x+DrsT+hOO4vZBr49lu4/45/1yM7HB3zt7Eiuh8VvAM9rerj9Zx4zE+n187wz3K5f9VMfjdAw6WRTlk5SjkwyyMVsUwiUIY0cRLz3/BHMRXhdWvZ0H9luqn70Q7K5ePx0+je9Tnn4JKh1fLpQWR4Z8KtelEn5yJZkpWzKz+Rb8n15Qf4iT1EYEQ5iM6RA82c9Erw6vFyfBqvwaVjFEG0iSoEOSlZRYeJyjtUk7hKbxRNikxjC3PJg+u7sK5miiE5APwIzkUHyVrp/W9XLjZvx3yQbcfSuDH1flO48nxn/+624+gXv3bflrKJtpNKu1Ip/JD0odZnqoaDUIMvH6AejuegUonOVSwAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCBUQJzdo6KtCAAAA40lEQVQY0z3QPW6TURQE0HO/d22F0CIKFyyANvugo2IVLIyW5VBEWICQgGAl+Pt571LE8ow0zekmXkaLXaSmKUM3nluj8uO7fD/HbLWZpJSaNNXyKfvdw4ejTQlhEkIpB7f3+dt3J2988WhC6Tar7rX86pvu4Gy2WQ2bxeKFVZ48+eneKwc//FW6bvPoJJ8sZumXP5qmCyGszvKfBcV1n7OZ5dmqlHHhMgxltcjNMITA4IrdKlMYF4orDiUqs90gNM2EoduUG7uW++P0+faCcT1haHbHeLvft0nphkKYNJNu6f8ByrJ40c85M8EAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDgtMjFUMTY6Mzk6NTUtMDQ6MDBkl1zIAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA4LTIxVDE2OjM5OjU1LTA0OjAwFcrkdAAAAABJRU5ErkJggg==&label=Utility&message=Linux&color=informational)
 
-> Cross-platform command line tool to benchmark commands in command lines written in `Fortran`. Very precise and fast.
+> Cross-platform command line tool to benchmark commands and other executables/scripts in command lines written in `Fortran`. Very precise and fast.
 
 <a name="table-of-contents"></a>
 
@@ -21,6 +18,8 @@ Working on an `AppImage`. New release coming soon.
   - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
   - [Usage](#usage)
+    - [Command Line](#command-line)
+    - [Linux Permissions](#linux-permissions)
   - [Files](#files)
     - [Linux Files](#linux-files)
     - [Windows Files](#windows-files)
@@ -40,7 +39,13 @@ Working on an `AppImage`. New release coming soon.
 
 ## Usage
 
-> Usage is the same on both Windows and Linux. 
+> Usage is the same in both Windows and Linux. In *Linux* there are 2 options; a small executable that depends on *gcc*/*gfortran* or an `.AppImage`  that has all dependencies included. In *Windows* there is only a single executable.
+
+> See [*For Vs. While*](#for-vs-while-example) for a basic example. This can be used in many ways.
+
+<a name="command-line"></a>
+
+### Command Line
 
 ```Bash
  $ bench --help
@@ -67,10 +72,29 @@ Working on an `AppImage`. New release coming soon.
  10ms
  $
 ```
+<a name="linux-permissions"></a>
+
+### Linux Permissions
+
+> You may have to set the files permissions to be executable in *Linux*.
+
+> Set executable for `$USER` only:
+
+```Bash
+ $ chmod u+x /path/to/bench
+```
+
+> Or for everyone:
+
+```Bash
+ $ chmod 755 /path/to/bench-x86_64.AppImage
+```
 
 <a name="files"></a>
 
 ## Files
+
+> These should be all up-to-date files, but the `Continuous Build` release page should always be the "Current Release". Link can be found in [*Project Links*](#project-links) below.
 
 File|Description
 ---:|:---
@@ -83,7 +107,9 @@ File|Description
 File|Description
 ---:|:---
 [Source Files](source_linux.7z)|Linux source - no compilations.
-[Compiled](dist/linux/bin/bench)|Compiled binary executable.
+[Compiled](dist/linux/bin/bench)|Compiled binary executable without dependencies.
+[Source Files - AppImage](source_appimage.7z)|`AppImage` source.
+[Compiled - AppImage](dist/linux/appimage/bench-x86_64.AppImage)| `.AppImage` with dependencies included. An *AppImage* can be renamed to whatever you like.
 
 <a name="windows-files"></a>
 
@@ -100,7 +126,7 @@ File|Description
 
 - [Official Project](https://lateralus138.github.io/benchmark-commandline-fortran)
 - [This Repository](https://github.com/Lateralus138/benchmark-commandline-fortran)
-- [Current Release](https://github.com/Lateralus138/benchmark-commandline-fortran/releases)
+- [Continuous Build - Current Releases](https://github.com/Lateralus138/benchmark-commandline-fortran/releases/tag/Continuous)
 
 
 <a name="media"></a>
