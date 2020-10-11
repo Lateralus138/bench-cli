@@ -1,6 +1,7 @@
-<a name="bench-cli"></a>
-
 # Bench CLI
+
+## Disclaimer
+This works great over most commands, but it can be a bit testy with a few commands depending on the output ***unless*** they are in placed in a script and then benchmark the script, of course. Not much difference in results when we are usually just looking for averages speeds in the first place. The `AppImage` adds at minimum 50ms per test, but then again we are still just worried about averages.
 
 |`Build`|`Status`|
 |---:|:---|
@@ -15,6 +16,7 @@
 ## Table of Contents
 
 - [Bench CLI](#bench-cli)
+  - [Disclaimer](#disclaimer)
   - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
   - [Usage](#usage)
