@@ -34,13 +34,13 @@ Cross-platform command line tool to benchmark commands and other executables/scr
   - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
   - [Usage](#usage)
+    - [Command Line](#command-line)
+    - [Linux Permissions](#linux-permissions)
     - [Dependencies](#dependencies)
       - [Linux Dependencies](#linux-dependencies)
         - ['APT' Based](#apt-based)
         - [Other packaging systems](#other-packaging-systems)
       - [Windows Dependencies](#windows-dependencies)
-    - [Command Line](#command-line)
-    - [Linux Permissions](#linux-permissions)
   - [Files](#files)
     - [Linux Files](#linux-files)
     - [Windows Files](#windows-files)
@@ -60,47 +60,6 @@ I like to benchmark ***EVERYTHING***. Plain and simple.
 Usage is the same in both Windows and Linux. In *Linux* there are 2 options; a small executable that depends on *gcc*/*gfortran* or an `.AppImage`  that has all dependencies included. The *Windows* version has an executable and depends on *gcc*/*gfortran* as well; here I have used the `MinGW` versions. For the *Linux* version I have an `AppImage` for as a single distibutable package, but I need to come up with a way to do so for the *Windows* version. For now you can install the afore mentioned packages in both operating systems. 
 
 See [*For Vs. While*](#for-vs-while-example) for a basic example. This can be used in many ways.
-
-### Dependencies
-
-As stated above this program depends on a few libraries from 2 programs (`GCC` and `GFORTRAN`) that can be installed in both *Windows* and *Linux*.
-
-#### Linux Dependencies
-
-Installing `GCC` and `GFORTRAN` in various *Linux* distributions:
-
-Libraries needed:
-
-- libc.so
-- libgfortran.so.4
-- libm.so.6
-- libquadmath.so.0
-
-##### 'APT' Based
-  
-```Bash
- $ sudo apt install gcc gfortran # add -y to skip affirmation.
-```
-
-##### Other packaging systems
-
-I'm sorry, there are various ways to install these package in other packaging systems and it looks like they are under various names, but you should be able to figure out their names by the 2 names provided here.
-
-#### Windows Dependencies
-
-Installing `GCC` and `GFORTRAN` in various *Windows* distributions:
-
-Libraries needed:
-
-- libgcc_s_dw2-1.dll
-- libgfortran-5.dll
-- libquadmath-0.dll
-
-I have installed these using the MinGW environment from here:
-
-[MinGW @ SourceForge](https://sourceforge.net/projects/mingw-w64/)
-
-The `c:/mingw/bin` directory (or wherever your `bin` directory is located) must be present in `%PATH%`.
 
 ### Command Line
 
@@ -144,6 +103,47 @@ Or for everyone:
 ```Bash
  $ chmod 755 /path/to/bench-x86_64.AppImage
 ```
+
+### Dependencies
+
+As stated above this program depends on a few libraries from 2 programs (`GCC` and `GFORTRAN`) that can be installed in both *Windows* and *Linux*.
+
+#### Linux Dependencies
+
+Installing `GCC` and `GFORTRAN` in various *Linux* distributions:
+
+Libraries needed:
+
+- libc.so
+- libgfortran.so.4
+- libm.so.6
+- libquadmath.so.0
+
+##### 'APT' Based
+  
+```Bash
+ $ sudo apt install gcc gfortran # add -y to skip affirmation.
+```
+
+##### Other packaging systems
+
+I'm sorry, there are various ways to install these package in other packaging systems and it looks like they are under various names, but you should be able to figure out their names by the 2 names provided here.
+
+#### Windows Dependencies
+
+Installing `GCC` and `GFORTRAN` in various *Windows* distributions:
+
+Libraries needed:
+
+- libgcc_s_dw2-1.dll
+- libgfortran-5.dll
+- libquadmath-0.dll
+
+I have installed these using the MinGW environment from here:
+
+[MinGW @ SourceForge](https://sourceforge.net/projects/mingw-w64/)
+
+The `c:/mingw/bin` directory (or wherever your `bin` directory is located) must be present in `%PATH%`.
 
 ## Files
 
