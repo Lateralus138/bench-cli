@@ -179,7 +179,7 @@ File|Description
 
 ### AppImage Hub
 
-- [AppImage at the AppImage Hub](https://appimage.github.io/UniShellect/)
+- [AppImage at the AppImage Hub](https://appimage.github.io/Bench_CLI/)
 
 ## Media
 
