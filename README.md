@@ -6,6 +6,12 @@ The *Windows* version of this is missing 3 library (DLL) dependecies that can be
 
 I will be working on providing these dependencies soon in one way or another, but I have to put it on hold for a short period of time.
 
+The 3 libraries that are missing are as follows:
+
+- libgcc_s_dw2-1.dll
+- libgfortran-5.dll
+- libquadmath-0.dll
+
 ## Disclaimer 2
 
 This works great over most commands, but it can be a bit testy with a few commands depending on the output ***unless*** they are in placed in a script and then benchmark the script, of course. Not much difference in results when we are usually just looking for averages speeds in the first place. The `AppImage` adds at minimum 50ms per test, but then again we are still just worried about averages.
