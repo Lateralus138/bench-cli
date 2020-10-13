@@ -1,6 +1,13 @@
 # Bench CLI
 
-## Disclaimer
+## Disclaimer 1
+
+The *Windows* version of this is missing 3 library (DLL) dependecies that can be provided by installing the `MinGW` version of `GCC` and `GFORTRAN` (95) packages and making sure that the `MinGW` **bin** directory is in your `%PATH%`.
+
+I will be working on providing these dependencies soon in one way or another, but I have to put it on hold for a short period of time.
+
+## Disclaimer 2
+
 This works great over most commands, but it can be a bit testy with a few commands depending on the output ***unless*** they are in placed in a script and then benchmark the script, of course. Not much difference in results when we are usually just looking for averages speeds in the first place. The `AppImage` adds at minimum 50ms per test, but then again we are still just worried about averages.
 
 |`Build`|`Status`|
@@ -16,7 +23,8 @@ This works great over most commands, but it can be a bit testy with a few comman
 ## Table of Contents
 
 - [Bench CLI](#bench-cli)
-  - [Disclaimer](#disclaimer)
+  - [Disclaimer 1](#disclaimer-1)
+  - [Disclaimer 2](#disclaimer-2)
   - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
   - [Usage](#usage)
