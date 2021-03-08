@@ -1,6 +1,8 @@
 # Bench CLI
 
-Cross-platform command line tool to benchmark commands and other executables/scripts in command lines written in `Fortran`. Very precise and fast.
+Cross-platform command line tool to benchmark commands and other executables/scripts in command lines written in `Fortran`. Very precise and fast. 
+
+**NOTE**: I'm going to be redoing this repository soon with a possible refractor coming not long after. It's also possible I'll be writing a more *portable* version in *`RustLang`*, but I'm a little skeptical because while *Rust* is certainly fast, *Fortran* is a BEAST. 
 
 ## Disclaimer 1
 
