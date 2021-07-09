@@ -2,6 +2,14 @@
 
 Cross-platform command line tool to benchmark commands and other executables/scripts in command lines written in `Fortran`. Very precise and fast.
 
+---
+
+If you like this project and care to donate to my PayPal:
+
+[![PayPal Donation](./docs/media/images/paypal_donate_button.png)](https://paypal.me/ianapride?locale.x=en_US)
+
+---
+
 ## Disclaimer 1
 
 The *Windows* version of this is missing 3 library (DLL) dependecies that can be provided by installing the `MinGW` version of `GCC` and `GFORTRAN` (95) packages and making sure that the `MinGW` **bin** directory is in your `%PATH%`.
