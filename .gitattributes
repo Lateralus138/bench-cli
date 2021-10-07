@@ -1,5 +1,5 @@
 *.sh linguist-detectable=false
-build.sh linguist-detectable=false
+build.sh linguist-vendored=true
 *.f95 linguist-language=Fortran
 *.f95 linguist-detectable=true
 .github/* linguist-vendored=true
