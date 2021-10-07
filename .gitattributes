@@ -1,4 +1,8 @@
 *.sh linguist-language=Fortran
-* linguist-language=Fortran
-*.sh linguist-detectable=true
-* linguist-detectable=true
+*.f95 linguist-language=Fortran
+*.f95 linguist-detectable=true
+.github/* linguist-vendored=true
+appimages_src/* linguist-vendored=true
+dist/* linguist-vendored=true
+docs/* linguist-vendored=true
+media/* linguist-vendored=true
