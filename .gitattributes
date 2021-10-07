@@ -1,5 +1,4 @@
 *.sh linguist-detectable=false
-build.sh linguist-vendored=true
 .github/* linguist-vendored=true
 appimages_src/* linguist-vendored=true
 dist/* linguist-vendored=true
