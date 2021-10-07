@@ -1,1 +1,2 @@
-*.sh linguist-detectable=false
+*.sh linguist-language=Fortran
+*.sh linguist-detectable=true
