@@ -1,6 +1,1 @@
 *.sh linguist-detectable=false
-.github/* linguist-vendored=true
-appimages_src/* linguist-vendored=true
-dist/* linguist-vendored=true
-docs/* linguist-vendored=true
-media/* linguist-vendored=true
