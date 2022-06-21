@@ -6,6 +6,8 @@ Cross-platform command line tool to benchmark commands and other executables/scr
 
 ---
 
+## Support Me If You Like
+
 If you like this project and care to donate to my ***PayPal***:
 
 [![PayPal Donation](docs/media/images/paypal_donate_button.png)](https://paypal.me/ianapride?locale.x=en_US)
