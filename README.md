@@ -1,5 +1,7 @@
 # Bench CLI
 
+***ANNOUNCEMENT***: **THIS PROJECT IS OFFICIALLY DISCONTINUED AND ARCHIVED**. A *C++* version has been started will be coming the next couple of months. The previously mentioned RustLang version has been scrapped as I can write perfectly safe *C++* code (it was nice learning about Rust in the 20+ projects I've done with it, but it is just unnecessary for my needs). 
+
 Cross-platform command line tool to benchmark commands and other executables/scripts in command lines written in `Fortran`. Very precise and fast. 
 
 **NOTE**: I'm going to be redoing this repository soon with a possible refractor coming not long after. It's also possible I'll be writing a more *portable* version in *`RustLang`*, but I'm a little skeptical because while *Rust* is certainly fast, *Fortran* is a BEAST. 
@@ -78,6 +80,7 @@ This works great over most commands, but it can be a bit testy with a few comman
 ## Table of Contents
 
 - [Bench CLI](#bench-cli)
+  - [Support Me If You Like](#support-me-if-you-like)
   - [Disclaimers](#disclaimers)
   - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
